@@ -257,9 +257,9 @@ if __name__ == "__main__":
 
    parser = argparse.ArgumentParser(description = '')
    parser.add_argument('--bed_dir',action='store',dest='bed_dir',
-                       help='dir location of bed files',default='../renamed_bed/')
+                       help='dir location of bed files',default='bed/')
    parser.add_argument('--rbh_dir',action='store',dest='rbh_dir',
-                       help='dir location of rbh files',default='../all_vs_all/')
+                       help='dir location of rbh files',default='all_vs_all/')
    parser.add_argument('--alpha',action='store',dest='alpha',default=0.05,
                        help='alpha')
    parser.add_argument('--rand',action='store',dest='do_rand',default=0,

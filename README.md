@@ -11,5 +11,6 @@ It will run as is for a comparison of *Capsaspora*, *Hormiphora*, *Ephydatia* an
 inspect the arguments. 
 
 Species are listed through `--sp_ids` and processed from *right* to *left*, so left should be the outgroup.
+e.g. `--sp_ids s_ros h_cal e_mue r_esc`
 
 The option `--last` will restrict output to the final analysis round.

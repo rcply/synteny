@@ -16,6 +16,6 @@ The option `--last` will restrict output to the final analysis round.
 
 ##### Dependencies
 
-I used `python=3.10`, but I imagine it works with most recent 3.x pythons versions.
+I used `python=3.10`, but I imagine it works with most recent 3.x python versions.
 The standard python packages `numpy`,`statsmodels` and `scipy` should be installed.
 

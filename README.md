@@ -5,7 +5,8 @@ Data and scripts associated with the paper: *Sponges, ctenophores and the statis
 
 The program `rhduet.py` will do the hierarchical analysis, on the data in the
 `bed` and `all_vs_all` (reciprocal best hits file) directories. It requires the
-python packages `numpy`,`statsmodels` and `scipy`
+python packages `numpy`,`statsmodels` and `scipy`. I used `python=3.10`, but 
+I imagine it works with most recent v3 pythons.
 
 It will run as is for a comparison of *Capsaspora*, *Hormiphora*, *Ephydatia* and *Rhopilema*. Otherwise
 inspect the arguments. 
